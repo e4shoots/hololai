@@ -1,244 +1,39 @@
-<!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Holola'i</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/png" href="images/favicon.png">
-	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<navi>
-							<a href="/" class="active">Home</a></li>
-							<a href="/gallery/">Gallery</a></li>
-							<a href="/booking/">Booking</a></li>
-						</navi>
-											
-						<nav>
-							<ul>
-								<li><a href="#footer" class="icon solid fa-info-circle">About Us</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-				<!-- Development Notice -->
-<div class="dev-notice">
-  ⚠️ This website is under development. Not accepting bookings at this time.
-</div>
-
-<style>
-.dev-notice {
-  position: fixed;
-  bottom: 80px;
-  right: 20px;
-  background: #0071e3;  /* match your button color */
-  color: white;
-  padding: 12px 18px;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  z-index: 9999;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-</style>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Holola'i</title>
-<link rel="stylesheet" href="path-to-multiverse-css.css"> <!-- your template CSS -->
-<style>
-/* --- Body & fonts --- */
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 0;
-  background: #111;
-  color: #fff;
-  scroll-behavior: smooth;
-}
-
-/* --- Hero Section --- */
-.hero {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(135deg, #1f1f1f, #111);
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.hero h1 {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 1.1;
-  margin: 0;
-  letter-spacing: 2px;
-  animation: fadeUp 1s ease forwards;
-}
-
-.hero p {
-  font-size: 1.3rem;
-  max-width: 700px;
-  margin: 20px auto 40px;
-  color: #ccc;
-  opacity: 0;
-  animation: fadeUp 1s ease 0.5s forwards;
-}
-
-.hero .btn {
-  display: inline-block;
-  margin: 10px 0;
-  padding: 15px 50px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 10px;
-  border: none;
-  background: #0071e3;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
-  opacity: 0;
-  animation: fadeUp 1s ease 1s forwards;
-}
-
-.hero .btn:hover {
-  background: #005bb5;
-}
-
-/* --- Animations --- */
-@keyframes fadeUp {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-/* --- Photo Grid --- */
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 15px;
-  padding: 60px 20px 80px;
-}
-
-.photo-grid img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.photo-grid img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
-/* --- Footer --- */
-footer {
-  text-align: center;
-  padding: 40px 20px;
-  font-size: 0.9rem;
-  color: #777;
-}
-
-footer a {
-  color: #0071e3;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Photography</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="site-header">
+    <h1>Your Name Photography</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Book Session</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-<!-- Hero Section -->
-<section class="hero">
-  <h1>Holola'i</h1>
-  <p>Capturing moments, creating visuals, and telling stories through photography. Scroll down to see some of my work.</p>
-  <a href="/gallery/" class="btn">View Gallery</a>
-  <a href="/booking/" class="btn">Book a Session</a>
-</section>
+  <section class="hero">
+    <h2>Capturing Moments, Creating Memories</h2>
+    <p>Explore my portfolio and book your session today.</p>
+  </section>
 
-<!-- Photo Preview Section -->
-<section class="photo-grid">
-  <img src="https://via.placeholder.com/600x400?text=Photo" alt="Photo 1">
-  <img src="https://via.placeholder.com/600x400?text=Photo" alt="Photo 2">
-  <img src="https://via.placeholder.com/600x400?text=Photo" alt="Photo 3">
-  <img src="https://via.placeholder.com/600x400?text=Photo" alt="Photo 4">
-</section>
-	
+  <section class="portfolio-preview">
+    <h3>Portfolio Highlights</h3>
+    <div class="grid">
+      <img src="images/photo1.jpg" alt="Portfolio Photo 1">
+      <img src="images/photo2.jpg" alt="Portfolio Photo 2">
+      <img src="images/photo3.jpg" alt="Portfolio Photo 3">
+    </div>
+    <a class="btn" href="portfolio.html">View Full Portfolio</a>
+  </section>
 
-</section>
-<!-- Footer -->
-<footer>
-  <p>&copy; <a href="http://hololai.photography">2026 Holola'i </a>. All rights reserved.</p>
-  <p>Follow us on Instagram: <a href="https://www.instagram.com/holo.lai" target="_blank">@holo.lai</a></p>
-</footer>
-
+  <footer>
+    <p>&copy; 2026 Your Name Photography</p>
+  </footer>
 </body>
-</html>
-
-
-				<!-- Footer -->
-					<footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h1>About us</h1>
-									<p>We are two small town boys from the Island of Kauai that has always had a relationship with photgraphy with a mission to capture and share the spirit of Kauai through honest, creative photography—highlighting the people, the surf, the streets, and the sunsets—so locals and visitors alike can see the island through our eyes. </p>
-								</section>
-								<section>
-									<h4>Follow me on instagram cuzin</h4>
-									<ul class="icons">
-										<li>
-											<a href="https://www.instagram.com/e4shoots/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span>
-												<span class="label">Instagram</span>
-      											<span class="icon-text">Instagram</span>
-											</a>
-										</li>
-									</ul>
-								</section>
-								<p class="copyright">
-									&copy; <a href="http://e4shoots.com">e4shoots 2026</a>.
-								</p>
-							</div>
-							<div>
-								<section>
-								<div style="display:flex; justify-content:center;">
-  								<!--<img src="images/fulls/me.jpg" alt="" style="max-width:300px; width:100%; border-radius:10px;"> -->
-								</div>
-								</section>
-							</div>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
